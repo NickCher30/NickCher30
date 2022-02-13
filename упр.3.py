@@ -1,4 +1,4 @@
-Упражнен.3
+#Упражнен.3
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.arange(-10, 10.01, 0.1)
