@@ -1,0 +1,29 @@
+no longer empty
+/root
+├── Lessons
+│   └── lesson1
+│       └── gritind.txt
+├── folder1
+├── folder2
+├── folder3
+├── folder4
+├── homework
+│   └── homework1
+│       └── my_homework_file.txt
+└── snap
+    └── lxd
+        ├── 24061
+        ├── 29619
+        ├── common
+        └── current -> 29619
+
+14 directories, 2 files
+    1  mkdir -p ~/homework/homework1/
+    2  cd ~/homework/homework1/
+    3  touch my_empty_file.txt
+    4  echo "no longer empty" > my_empty_file.txt
+    5  mv my_empty_file.txt my_homework_file.txt
+    6  cp ~/homework/homework1/my_homework_file.txt ~/homework/
+    7  rm ~/homework/my_homework_file.txt
+    8  tree ~ >> ~/homework/homework1/my_homework_file.txt
+    9  history >> ~/homework/homework1/my_homework_file.txt
